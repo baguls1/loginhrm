@@ -1,4 +1,4 @@
-URL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/logintest"
+URL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
 username="Admin"
 password="admin123"
 
