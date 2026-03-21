@@ -11,3 +11,4 @@ def test_valid_login(setup):
 
     # added assertion to verify successful login
     assert "dashboard" in driver.current_url, "Login failed, dashboard not found in URL"
+#swith to new branch
