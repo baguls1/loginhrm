@@ -1,7 +1,9 @@
 from pages.login_page import LoginPage
-from config.config import username,password
+import pytest
+#from config.config import username,password
 
-def test_valid_login(setup):
+@pytest.mark.parametrize("username,password", [("Admin", "admin123"),("admin1","wrongpass")])
+def test_valid_login(setup,username,password):
     driver=setup
     login =LoginPage(driver) #create an object of login page class
 
